@@ -1,4 +1,4 @@
-/*
+
 #setting up autoscaling launch configuration
 
 resource "aws_launch_configuration" "precious-terraform-training-as_conf" {
@@ -43,4 +43,4 @@ resource "aws_autoscaling_group" "precious-terraform-training-as_group" {
   }
 }
 
-*/
+
