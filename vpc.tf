@@ -3,7 +3,8 @@ resource "aws_vpc" "precious-terraform-training-vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "precious-terraform-training"
-    env = "precious-training"
+    Name  = "precious-terraform-training-vpc"
+    env   = "precious-terraform-training"
+    owner = "precious"
   }
 }
