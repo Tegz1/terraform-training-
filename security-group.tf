@@ -66,5 +66,6 @@ resource "aws_security_group" "precious-terraform-training-SG" {
     Name  = "precious-terraform-training-SG"
     env   = "precious-terraform-training"
     owner = "precious"
+    workspace = var.name_webserver[terraform.workspace]
   }
 }

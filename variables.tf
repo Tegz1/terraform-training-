@@ -8,3 +8,10 @@ variable "image_id_webserver1" {
   type = string
 
 }
+
+variable "name_webserver" {
+  default = {
+    staging = "webserver_staging"
+    production = "webserver_production"
+  }
+}
